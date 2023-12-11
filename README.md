@@ -32,3 +32,7 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+In the worst case, the augementing path does not exist, and the algorithm will have to
+traverse the entire graph.  Since it is using an adjacency list, it will have to iterate 
+over all edges and vertices, making the worst case runtime $\Theta (|V| + |E|)$.
